@@ -17,7 +17,7 @@
 	<!-- File for your styles -->
 	<link rel="stylesheet" href="css/style.css" type="text/css" />
 	<!-- Delete string below, if you don't want normalize.css -->
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.1.3/normalize.min.css" type="text/css" />
+	<link rel="stylesheet" href="css/normalize.min.css" type="text/css" />
 	
 	<!--[if lt IE 9]>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script>
@@ -25,7 +25,9 @@
 </head>
 <body>
 	<!-- Delete string below, if you don't want jQuery -->
-	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<!-- If unavailable, fallback to local -->
+	<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>');</script>
 	<!-- File for your js code -->
 	<script src="js/functions.js"></script>
 </body>
